@@ -31,12 +31,11 @@ int main() {
     cout << "masukkan jurusan : ";
     getline(cin, m1.jurusan);
 
-
     cout << "nama : " << m1.nama<<endl;
     cout << "umur : " << m1.umur <<endl;
     cout << "jurusan : " << m1.jurusan <<endl;
-
-cout << "masukkan nama : ";
+  
+    cout << "masukkan nama : ";
     getline(cin, m2.nama);
     cout << "masukkan umur : ";
     cin >> m2.umur;
@@ -48,7 +47,7 @@ cout << "masukkan nama : ";
     cout << "umur : " << m2.umur <<endl;
     cout << "jurusan : " << m2.jurusan <<endl;
 
-    TanggalLahir lahir;
+    lahir = inputTanggal();
     cout << "masukkan hari : ";
     cin >> lahir.hari;
     cout << "masukkan bulan : ";
